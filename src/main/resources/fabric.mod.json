@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "directionhud-fabric",
+  "version": "${version}",
+  "name": "DirectionHUD",
+  "description": "A scrolling compass HUD with ten original styles and configurable placement.",
+  "authors": ["bspkrs (original mod)", "memeasaur (Fabric port)"],
+  "license": "CC-BY-NC-SA-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.memeasaur.directionhudFabric.client.DirectionhudFabricClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": ">=0.161.0",
+    "minecraft": "${minecraft_version}",
+    "java": ">=25"
+  }
+}
